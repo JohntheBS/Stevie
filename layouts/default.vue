@@ -5,6 +5,7 @@
     <slot />
     <!-- footer -->
     <footer>default footer</footer>
+    <ScrollToTop />
   </div>
 </template>
 
