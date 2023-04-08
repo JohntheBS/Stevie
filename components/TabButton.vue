@@ -1,10 +1,5 @@
 <template>
-  <button
-    class="btn bg-primary-accent text-white"
-    :class="{
-      'bg-[#f9690e]': selected,
-    }"
-  >
+  <button class="btn text-white" :class="[selected ? 'bg-primary' : 'bg-primary-accent']">
     {{ name }}
   </button>
 </template>

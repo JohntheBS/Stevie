@@ -2,12 +2,7 @@
   <TabGroup>
     <TabList class="flex justify-center">
       <ul class="space-x-4">
-        <Tab
-          v-for="(m, i) in menus"
-          :key="i"
-          as="template"
-          v-slot="{ selected }"
-        >
+        <Tab v-for="(m, i) in menus" :key="i" as="template" v-slot="{ selected }">
           <TabButton :name="m.name" :selected="selected" />
         </Tab>
       </ul>
