@@ -12,7 +12,6 @@
           <li>privatedining</li>
         </ul>
       </nav>
-      <!-- herosection -->
     </header>
     <slot />
     <!-- footer -->
