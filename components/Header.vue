@@ -4,10 +4,9 @@
     <nav class="absolute top-0 inset-x-0 z-10">
       <div class="flex justify-between container mx-auto p-4">
         <div>
-          <span class="text-primary" v-for="(l, i ) in 'Logo'"
-            :class="[i % 2 == 0 ? 'text-primary' : 'text-amber-400']">{{ l }}</span>
+          <span v-for="(l, i ) in 'Logo'" :class="[i % 2 == 0 ? 'text-primary' : 'text-amber-400']">{{ l }}</span>
         </div>
-        <div class="flex gap-3">
+        <div class="gap-3 hidden tablet:flex">
           <NuxtLink :to="link.url"
             :class="['cursor-pointer hover:text-primary text-gray-200 [&.router-link-active]:text-primary']"
             v-for="link in links">{{ link.label }}</NuxtLink>

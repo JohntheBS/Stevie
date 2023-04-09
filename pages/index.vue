@@ -9,9 +9,10 @@
     <Section>
       <Chef :chefs="chef.chefs" />
     </Section>
+
     <div class="grid grid-cols-2">
-      <div class="h-full w-full bg-primary-accent/30"></div>
-      <Form class="col-start-2" />
+      <div class="hidden laptop:block h-full w-full bg-primary-accent/30"></div>
+      <Form class="" />
     </div>
     <!-- testimonial -->
     <Section class="h-[200px]"> </Section>

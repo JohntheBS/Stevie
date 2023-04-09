@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="grid grid-cols-2 gap-y-10 gap-x-24 px-10 py-10">
+    <div class="grid laptop:grid-cols-2 tv:grid-cols-3 gap-y-24 tablet:gap-y-10 tablet:gap-x-24">
       <MenuListItem v-for="f in foods" :key="f.id" :food="f" />
     </div>
   </div>
