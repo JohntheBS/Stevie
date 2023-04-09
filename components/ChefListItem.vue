@@ -6,7 +6,7 @@
       class="p-6 space-y-3 text-center group-hover:text-white [&>p]:text-primary-accent/70 group-hover:[&>p]:text-white"
     >
       <div
-        class="h-24 w-24 rounded-full border-[3px] group-hover:border-primary border-black mx-auto"
+        class="h-24 w-24 rounded-full border-[3px] group-hover:border-primary bg-primary-accent/30 border-black mx-auto"
       ></div>
       <h3 class="font-bold">{{ chef.name }}</h3>
       <p class="">{{ chef.level }}</p>
