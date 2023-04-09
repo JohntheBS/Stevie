@@ -3,6 +3,9 @@ module.exports = {
   content: [],
   theme: {
     extend: {
+      fontFamily: {
+        airbnb: 'Airbnb'
+      },
       screens: {
         mobile: '300px',
         tablet: '481px',
