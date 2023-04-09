@@ -2,7 +2,7 @@
   <button
     class="btn bg-primary-accent text-white"
     :class="{
-      'bg-[#f9690e]': selected,
+      'bg-primary': selected,
     }"
   >
     {{ name }}

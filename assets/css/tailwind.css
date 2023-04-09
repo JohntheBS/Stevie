@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  /* @apply bg-gray-200; */
+  /* @apply bg-gray-200 prose; */
 }
 @layer components {
   .btn {
@@ -14,5 +14,8 @@ body {
   }
   .btn-colors-secondary {
     @apply bg-primary-accent text-white hover:text-white hover:bg-primary transition-all duration-200;
+  }
+  .btn-colors-tertiary {
+    @apply bg-primary text-white hover:text-white hover:bg-primary-accent transition-all duration-200;
   }
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-4">
+  <div class="">
     <!-- <Button name="book a table" /> -->
     <!-- {{ menu }} -->
     <Section>
@@ -9,6 +9,10 @@
     <Section>
       <Chef :chefs="chef.chefs" />
     </Section>
+    <div class="grid grid-cols-2">
+      <div class="h-full w-full bg-primary-accent/70"></div>
+      <Form class="col-start-2" />
+    </div>
   </div>
 </template>
 
