@@ -25,9 +25,9 @@
             <p>phonenumber</p>
           </div>
           <div class="flex gap-2">
-            <SocialLink name="facebook" />
-            <SocialLink name="twitter" />
-            <SocialLink name="google" />
+            <SocialLink name="facebook" class="[&_.nuxt-icon]:text-blue-700" />
+            <SocialLink name="twitter" class="[&_.nuxt-icon]:text-blue-300" />
+            <SocialLink name="google" class="[&_.nuxt-icon]:text-red-500" />
             <!-- sociallink -->
           </div>
         </div>
