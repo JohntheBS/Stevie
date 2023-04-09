@@ -1,6 +1,6 @@
 <template>
   <button
-    class="btn text-white"
+    class="btn text-white focus:outline-none"
     :class="[selected ? 'bg-primary' : 'bg-primary-accent']"
   >
     {{ name }}

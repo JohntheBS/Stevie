@@ -10,14 +10,13 @@
       <Chef :chefs="chef.chefs" />
     </Section>
 
-    <Section>
-      <div class="grid grid-cols-12">
-        <div class="hidden laptop:block laptop:col-span-4 desktop:col-span-6 h-full w-full bg-primary-accent/30"></div>
-        <Form class="col-span-full laptop:col-span-8 desktop:col-span-6 laptop:p-3" />
+    <Section class="my-10">
+      <div class="grid laptop:grid-cols-2">
+        <div class="bg-primary-accent/30 h-[450px]"></div>
+        <Form class="" />
       </div>
     </Section>
     <!-- testimonial -->
-    <Section class="h-[200px]"> </Section>
   </div>
 </template>
 

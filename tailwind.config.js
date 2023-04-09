@@ -4,15 +4,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        airbnb: 'Airbnb'
+        airbnb: "Airbnb",
       },
       screens: {
-        mobile: '300px',
-        tablet: '481px',
-        laptop: '769px',
-        desktop: '1025px',
-        wide: '1280px',
-        tv: '1440px',
+        mobile: "300px",
+        tablet: "481px",
+        laptop: "769px",
+        desktop: "1025px",
+        wide: "1280px",
+        tv: "1440px",
       },
       colors: {
         primary: "#f9690e",

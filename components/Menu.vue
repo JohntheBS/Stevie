@@ -1,5 +1,5 @@
 <template>
-  <header class="text-center pb-12">
+  <header class="text-center">
     <h2 class="text-primary text-xl">All our menus</h2>
     <h1 class="text-4xl font-bold text-primary-accent">Complete your day</h1>
   </header>
@@ -7,8 +7,13 @@
     <HuiTabGroup>
       <HuiTabList class="flex justify-center my-8">
         <ul class="flex space-x-1 tablet:space-x-4">
-          <HuiTab v-for="(m, i) in menus" :key="i" as="div" class="flex-1 basis-1/3" v-slot="{ selected }">
-            <TabButton :name="m.name" :selected="selected" class="!w-full px-3 py-2" />
+          <HuiTab
+            v-for="(m, i) in menus"
+            :key="i"
+            as="div"
+            v-slot="{ selected }"
+          >
+            <TabButton :name="m.name" :selected="selected" />
           </HuiTab>
         </ul>
       </HuiTabList>
