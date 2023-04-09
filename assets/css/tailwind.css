@@ -167,7 +167,7 @@
 
 @layer components {
   .btn {
-    @apply h-12 w-36 text-sm  uppercase  focus:outline-none;
+    @apply h-12 w-36 text-sm uppercase focus:outline-none;
   }
   .btn-colors-primary {
     @apply bg-primary text-white hover:bg-white hover:text-primary transition-all duration-200;

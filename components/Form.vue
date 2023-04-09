@@ -6,11 +6,11 @@
         Best dining experience
       </h1>
     </header>
-    <form class="grid grid-cols-2 gap-6">
+    <form class="grid laptop:grid-cols-2 gap-6">
       <Input label="Your name" placeholder="Enter your name" type="text" />
       <Input label="Email address" placeholder="Enter your email" type="text" />
-      <Input label="Select your date" type="date" />
-      <div class="grid space-y-1">
+      <Input label="Select your date" type="datetime-local" />
+      <div class=" grid space-y-1">
         <label for="people">Number of people</label>
         <select name="people" id="people" class="border-primary-accent/40 focus:border-0 focus:ring-1 focus:ring-primary">
           <option value="1">1</option>

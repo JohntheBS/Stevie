@@ -11,7 +11,8 @@ module.exports = {
         tablet: '481px',
         laptop: '769px',
         desktop: '1025px',
-        tv: '1280px',
+        wide: '1280px',
+        tv: '1440px',
       },
       colors: {
         primary: "#f9690e",
