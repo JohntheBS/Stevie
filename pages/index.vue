@@ -10,7 +10,7 @@
       <Chef :chefs="chef.chefs" />
     </Section>
     <div class="grid grid-cols-2">
-      <div class="h-full w-full bg-primary-accent/70"></div>
+      <div class="h-full w-full bg-primary-accent/30"></div>
       <Form class="col-start-2" />
     </div>
   </div>
