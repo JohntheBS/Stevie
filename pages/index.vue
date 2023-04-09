@@ -13,6 +13,8 @@
       <div class="h-full w-full bg-primary-accent/30"></div>
       <Form class="col-start-2" />
     </div>
+    <!-- testimonial -->
+    <Section class="h-[200px]"> </Section>
   </div>
 </template>
 

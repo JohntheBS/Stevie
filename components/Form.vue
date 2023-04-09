@@ -9,16 +9,8 @@
     <form class="grid grid-cols-2 gap-6">
       <Input label="Your name" placeholder="Enter your name" type="text" />
       <Input label="Email address" placeholder="Enter your email" type="text" />
-      <div class="grid">
-        <label for="date">Select your date:</label>
-        <select name="date" id="date">
-          <option value="volvo">Volvo</option>
-          <option value="saab">Saab</option>
-          <option value="mercedes">Mercedes</option>
-          <option value="audi">Audi</option>
-        </select>
-      </div>
-      <div class="grid">
+      <Input label="Select your date" type="date" />
+      <div class="grid space-y-1">
         <label for="people">Number of people</label>
         <select
           name="people"
