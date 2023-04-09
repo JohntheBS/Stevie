@@ -6,14 +6,14 @@
   <HuiTabGroup>
     <HuiTabList class="flex justify-center">
       <ul class="space-x-4">
-        <Tab
+        <HuiTab
           v-for="(m, i) in menus"
           :key="i"
           as="template"
           v-slot="{ selected }"
         >
           <TabButton :name="m.name" :selected="selected" />
-        </Tab>
+        </HuiTab>
       </ul>
     </HuiTabList>
     <HuiTabPanels>
