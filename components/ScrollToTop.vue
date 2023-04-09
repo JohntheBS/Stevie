@@ -7,8 +7,8 @@
 </template>
 
 <script setup lang="ts">
-const scrollToTop = () =>
-  // document?.scrollingElement?.scrollTo({ behavior: "smooth", top: 0 });
+// const scrollToTop = () =>
+// document?.scrollingElement?.scrollTo({ behavior: "smooth", top: 0 });
 
 // const html = ref<HTMLElement | null>(null);
 
