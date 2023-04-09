@@ -8,4 +8,7 @@ export default defineNuxtConfig({
     "nuxt-icons",
     "nuxt-swiper",
   ],
+  headlessui: {
+    prefix: "Hui",
+  },
 });
