@@ -1,7 +1,11 @@
 <template>
   <div
-    class="h-8 w-8 rounded-full grid place-items-center hover:bg-primary hover:text-white bg-white text-primary-accent"
+    class="h-8 aspect-square rounded-full flex items-center justify-center cursor-pointer hover:bg-primary hover:text-white bg-white text-primary-accent"
   >
-    <nuxt-icon name="google" />
+    <nuxt-icon :name="name" />
   </div>
 </template>
+
+<script setup lang="ts">
+defineProps<{ name: string }>();
+</script>
